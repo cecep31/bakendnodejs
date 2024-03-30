@@ -1,0 +1,10 @@
+{
+    "name": "example book",
+    "year": 2022,
+    "author": "John Doe",
+    "summary": "This is a summary of the book",
+    "publisher": "ABC Publishing",
+    "pageCount": 200,
+    "readPage": 50,
+    "reading": true
+}
