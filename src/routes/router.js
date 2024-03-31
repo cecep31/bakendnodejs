@@ -1,4 +1,4 @@
-import { getBooksHandler,addBookHandler, getBookByIdHandler, updateBookHandler } from "../handlers/booksHandler.js";
+import { getBooksHandler,addBookHandler, getBookByIdHandler, updateBookHandler, deleteBookHandler } from "../handlers/booksHandler.js";
 
 const router = [
   {
@@ -31,7 +31,7 @@ const router = [
   {
     method: "DELETE",
     path: "/books/{bookId}",
-    handler: getBooksHandler,
+    handler: deleteBookHandler,
   },
 ];
 export default router;
